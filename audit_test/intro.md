@@ -38,4 +38,14 @@ Utile pour
 
 ##La mise en place de tests
 
+###Intérêt de tester du code.
+
+* Garder un certain control du comportement de l'application.
+* Important en fonction de la criticité de l'application (données sensibles, sécurité, maintenabilité)
+
+* test ergonomique (A/B testing) afin d'optimiser l'ergonomie d'une interface.
+
+* 
+
+
 
