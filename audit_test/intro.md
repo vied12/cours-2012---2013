@@ -38,4 +38,23 @@ Utile pour
 
 ##La mise en place de tests
 
+###Intérêt de tester du code.
+
+* Garder un certain control du comportement de l'application.
+* Important en fonction de la criticité de l'application (données sensibles, sécurité, maintenabilité)
+
+* test ergonomique (A/B testing) afin d'optimiser l'ergonomie d'une interface.
+
+
+##Nouveaux outils:
+
+* outil de gestion de contenu (gestion de versions décentralisée) => git
+Effet collatéral  
+=> Permet de détecter des bugs plus rapidement.  
+
+=> Simplifie la synchronisation des codes de développement et de production. 
+
+
+
+
 
