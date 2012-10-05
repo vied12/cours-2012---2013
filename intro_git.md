@@ -6,3 +6,6 @@ http://www.youtube.com/watch?v=IEmgXsoV35w
 
 Attelier pratique
 http://www.youtube.com/watch?v=qPo7YPB6EFM
+
+Tutoriel intératif:
+http://try.github.com
