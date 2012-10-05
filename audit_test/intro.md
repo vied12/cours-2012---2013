@@ -9,16 +9,32 @@ Différents buts:
 
 #Techniques plus en amont:
 
+##la revue de code
+
+http://fr.wikipedia.org/wiki/Revue_de_code
+  
+La revue de code (de l'anglais : « code review ») est un examen systématique du code source d'un logiciel.  
+
+Il peut être comparé au processus ayant lieu dans un comité de lecture, l'objectif étant de trouver des bugs ou des vulnérabilités potentielles ou de corriger des erreurs de conception afin d'améliorer la qualité et la sécurité du logiciel.  
+
+Une revue de code peut s'appuyer sur la vérification (manuelle ou automatisée) du respect d'un ensemble de règles de programmation.  
+
+La revue de code devient de plus en plus une étape à part entière dans tout processus de développement logiciel.  
+
 ##le pear programming
 
 Ou programmation en binôme
 http://fr.wikipedia.org/wiki/Programmation_en_bin%C3%B4me
 
-Utile pour :
-* Avoir une certaines qualité du code, vise à remplacer la revue de code par une réflexion en amont.
-* Obtenir un code plus facile à maintenir et donc gagner du temps en terme de maintenance de code.
-* Former efficacement un développeur à des techniques ou à l'utilisation d'outils de développement.
-* Eviter que chaque partie d'un code ne soit dépendante que d'un seul développeur
+Utile pour  
+
+* Avoir une certaines qualité du code, vise à remplacer la revue de code par une réflexion en amont.  
+
+* Obtenir un code plus facile à maintenir et donc gagner du temps en terme de maintenance de code.  
+
+* Former efficacement un développeur à des techniques ou à l'utilisation d'outils de développement.  
+
+* Eviter que chaque partie d'un code ne soit dépendante que d'un seul développeur  
 
 ##La mise en place de tests
 
