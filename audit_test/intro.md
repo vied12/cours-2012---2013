@@ -45,7 +45,13 @@ Utile pour
 
 * test ergonomique (A/B testing) afin d'optimiser l'ergonomie d'une interface.
 
-* 
+
+##Nouveaux outils:
+
+* outil de gestion de contenu (gestion de versions décentralisée) => git
+Effet collatéral => Simplifie la synchronisation des codes de développement et de production.
+
+
 
 
 
