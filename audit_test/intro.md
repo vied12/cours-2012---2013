@@ -49,7 +49,10 @@ Utile pour
 ##Nouveaux outils:
 
 * outil de gestion de contenu (gestion de versions décentralisée) => git
-Effet collatéral => Simplifie la synchronisation des codes de développement et de production.
+Effet collatéral  
+=> Permet de détecter des bugs plus rapidement.  
+
+=> Simplifie la synchronisation des codes de développement et de production. 
 
 
 
