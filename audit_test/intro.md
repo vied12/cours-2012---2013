@@ -50,7 +50,8 @@ Utile pour
 
 ##Nouveaux outils:
 
-* outil de gestion de contenu (gestion de versions décentralisée) => git
+* outil de gestion de contenu (gestion de versions décentralisée) => git  
+
 Effet collatéral  
 => Permet de détecter des bugs plus rapidement.  
 
