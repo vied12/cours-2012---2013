@@ -67,7 +67,7 @@ Les tests d'intégration ont pour but de valider le fait que toutes les parties 
 
 #Principe  
 
-Technique de développement de logiciel piloté par les tests, elle préconise d'écrire les tests avant d'écrire le code source d'un logiciel.
+Technique de développement de logiciel piloté par les tests, elle préconise d'écrire le test d'une fonctionnalité avant d'écrire le code implémentant cette fonctionnalité. Elle préconise aussi de ne pas écrire de nouveaux tests tant que les tests précedents ne sont pas implémentés et que leurs tests associés passent avec succès.
 
 ## Exemple
 
