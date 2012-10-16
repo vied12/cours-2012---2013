@@ -45,20 +45,29 @@ Utile pour
 * Garder un certain contrôle du comportement de l'application.
 * Important en fonction de la criticité de l'application (données sensibles, sécurité, maintenabilité)
 
-* test ergonomique (A/B testing) afin d'optimiser l'ergonomie d'une interface.
+
+###Définition d'un test:
+
+Un test permet de confronter le comportement d'un programme à une spécification attendue. 
+
+Il permet de statuer sur le succès ou sur l'échec d'une ou plusieurs vérifications de fonctionnement du programme.
 
 
-##Nouveaux outils:
+###Deux types de tests couramment utilisés:
 
-* outil de gestion de contenu (gestion de versions décentralisée) => git  
+* Le test unitaire:  
 
-Effet collatéral  
-=> Permet de détecter des bugs plus rapidement.  
+Le test unitaire est un procédé permettant de s'assurer du fonctionnement correct d'une partie déterminée d'un logiciel ou d'une portion d'un programme appelée « unité » ou « module ».  
 
-=> Simplifie la synchronisation des codes de développement et de production. 
+* Le test d'intégration
 
+Les tests d'intégration ont pour but de valider le fait que toutes les parties d'un programme développées indépendamment fonctionnent bien ensemble de façon cohérente et conformément aux spécifications.   
 
 # TDD (Test Driven Developement)
+
+#Principe  
+
+Technique de développement de logiciel piloté par les tests, elle préconise d'écrire les tests avant d'écrire le code source d'un logiciel.
 
 ## Exemple
 
@@ -73,5 +82,33 @@ Etapes :
 5. Implémenter la fonctionnalité.
 6. Vérifier que le test réussise (idem 4).
 
+###résumé mnemotechnique en 3 grandes étapes:  
+
+1) Red - échec du test  
+
+2) Green - succès du test  
+
+3) Refactor - refactorisation du code  
+
+
+Processus détaillé: http://bruno-orsier.developpez.com/tutoriels/TDD/pentaminos/#LII
+
+##TDD + logiciel de version décentralisé (ex:git)
+* Detection et correction des bugs au plus vite. 
+* Refactorisation plus sûre et rapide. Non régression du code.
+
+http://fr.wikipedia.org/wiki/Refactorisation
+
+Les programmes ont une vie et doivent s'adapter à leur environnement, cela implique de pouvoir refactoriser son code en s'assurant que l'ensemble des fonctionnalités du programme soient préservées. On parle alors de "non régression" du code.
+
+* Intégration continue. http://fr.wikipedia.org/wiki/Int%C3%A9gration_continue
+
+Elle peut être automatisée en utilisant par exemple le principe suivant:
+
+Toutes les nuits un script estampillera une nouvelle version du logiciel (release) en prenant la dernière version commitée et synchronisée avec le dépot de référence dont l'ensemble des tests passent avec succès.
+
+#aussi vu pendant le cours
+
+* test ergonomique (A/B testing) afin d'optimiser l'ergonomie d'une interface.
 
 
