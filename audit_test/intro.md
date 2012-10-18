@@ -4,7 +4,7 @@ Différents buts:
 
 * renforcer la fiabilité , la sécurité, la performance du code.
 * déterminer la complexité du code d'un applicatif et en déduire sa maintenabilité.
-* pallier l'absence de tests d'une application.
+* palier à l'absence de tests d'une application.
 
 
 #Techniques plus en amont:
