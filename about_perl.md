@@ -9,6 +9,8 @@ Two free ebooks about modern PERL :
 Others :
 * PerlMonks Tutorials : http://www.perlmonks.org/index.pl?node=Tutorials
 * Learn Perl : http://learn.perl.org/
+* Perl Tutorial : http://perl-tutorial.org/
+* Perl section on DVLP : http://perl.developpez.com/cours/
 
 ##Testing in PERL :
 
