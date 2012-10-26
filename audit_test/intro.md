@@ -107,6 +107,9 @@ Elle peut être automatisée en utilisant par exemple le principe suivant:
 
 Toutes les nuits un script estampillera une nouvelle version du logiciel (release) en prenant la dernière version commitée et synchronisée avec le dépot de référence dont l'ensemble des tests passent avec succès.
 
+##Déboggage et code hérité (Legacy code)
+http://danlimerick.wordpress.com/2012/04/25/tdd-when-up-to-your-neck-in-legacy-code/
+
 #aussi vu pendant le cours
 
 * test ergonomique (A/B testing) afin d'optimiser l'ergonomie d'une interface.
