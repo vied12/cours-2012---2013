@@ -112,6 +112,10 @@ http://danlimerick.wordpress.com/2012/04/25/tdd-when-up-to-your-neck-in-legacy-c
 
 #aussi vu pendant le cours
 
+##Mettre en place une infrastructure de test:
+http://www.confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years
+
+
 * test ergonomique (A/B testing) afin d'optimiser l'ergonomie d'une interface.
 
 
