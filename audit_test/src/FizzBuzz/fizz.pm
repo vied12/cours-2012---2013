@@ -10,18 +10,15 @@ sub fizzOrBuzz{
     my ($self, $a)=@_;
     my $ret="";
 
-    if($a == 35)
-    {
-        return "fizz buzz";
-    }
-    if ($a % 3 == 0)
+    if ($a % 3 == 0 || $a =~ m/(\d)*3(\d)*/)
     {
         $ret .= "fizz";    
     }
-    if ($a % 3 == 0 && $a % 5 ==0){
+    if (($a % 3 == 0 && $a % 5 ==0) || 
+        ($a =~ m/(\d)*3(\d)*/ && $a =~ m/(\d)*5(\d)*/)){
         $ret .= " ";
     }
-    if($a % 5 == 0){
+    if($a % 5 == 0 || $a =~ m/(\d)*5(\d)*/){
         $ret .= "buzz";
     }
     if ($ret eq ""){

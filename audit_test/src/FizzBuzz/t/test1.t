@@ -1,7 +1,7 @@
 use strict;
 use Test;
 
-BEGIN { plan tests => 5 };
+BEGIN { plan tests => 7 };
 
 use fizz;
 
@@ -10,5 +10,7 @@ ok(fizz->fizzOrBuzz(3), "fizz");
 ok(fizz->fizzOrBuzz(5), "buzz");
 ok(fizz->fizzOrBuzz(15), "fizz buzz");
 ok(fizz->fizzOrBuzz(35), "fizz buzz");
+ok(fizz->fizzOrBuzz(33), "fizz");
+ok(fizz->fizzOrBuzz(83), "fizz");
 
 
