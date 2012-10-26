@@ -20,9 +20,11 @@ http://search.cpan.org/~rgarcia/perl-5.10.0/lib/Test/Tutorial.pod
 * Test::More - yet another framework for writing test scripts :
 http://search.cpan.org/~mschwern/Test-Simple-0.98/lib/Test/More.pm
 
+
 ##Misc :
 
 * What Is a Module? - http://learnperl.scratchcomputing.com/tutorials/modules/
 * The CPAN - http://learnperl.scratchcomputing.com/tutorials/configuration/
+* Using regex in Perl - http://www.troubleshooters.com/codecorn/littperl/perlreg.htm#op_=%7E
 
 Feel free to add some links here.
