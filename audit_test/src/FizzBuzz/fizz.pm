@@ -8,24 +8,25 @@ use Mojo::Util 'encode';
 
 sub fizzOrBuzz{
     my ($self, $a)=@_;
-    my $ret="";
-
-    if ($a % 3 == 0 || $a =~ m/(\d)*3(\d)*/)
-    {
-        $ret .= "fizz";    
-    }
     if (($a % 3 == 0 && $a % 5 ==0) || 
         ($a =~ m/(\d)*3(\d)*/ && $a =~ m/(\d)*5(\d)*/)){
-        $ret .= " ";
+        return "fizz buzz";
     }
-    if($a % 5 == 0 || $a =~ m/(\d)*5(\d)*/){
-        $ret .= "buzz";
+    elsif ($a % 3 == 0 || $a =~ m/(\d)*3(\d)*/)
+    {
+        if ($a =~ m/(\d)*5(\d)*/){
+            return "fizz buzz";
+        }
+        return "fizz";    
     }
-    if ($ret eq ""){
-        $ret .= $a;
+    elsif($a % 5 == 0 || $a =~ m/(\d)*5(\d)*/){
+        if ($a =~ m/(\d)*3(\d)*/){
+            return "fizz buzz";
+        }
+        return "buzz";
     }
-
-    return $ret;
-
+    else {
+        return $a;
+    }
 }
 1;
