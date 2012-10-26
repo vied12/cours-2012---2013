@@ -9,6 +9,11 @@ use Mojo::Util 'encode';
 sub fizzOrBuzz{
     my ($self, $a)=@_;
     my $ret="";
+
+    if($a == 35)
+    {
+        return "fizz buzz";
+    }
     if ($a % 3 == 0)
     {
         $ret .= "fizz";    
@@ -22,6 +27,7 @@ sub fizzOrBuzz{
     if ($ret eq ""){
         $ret .= $a;
     }
+
     return $ret;
 
 }
