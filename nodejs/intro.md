@@ -1,5 +1,7 @@
 ##Ressources utiles pour démarrer:  
 
+http://nodejs.org/
+
 ###Javascript:
 
 The good parts: http://www.youtube.com/watch?v=hQVTIJBZook
