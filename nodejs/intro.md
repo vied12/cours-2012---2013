@@ -2,6 +2,9 @@
 
 http://nodejs.org/
 
+Liste des modules node installable par npm:  
+https://npmjs.org/
+
 ###Javascript:
 
 The good parts: http://www.youtube.com/watch?v=hQVTIJBZook
