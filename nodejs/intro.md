@@ -4,8 +4,8 @@
 
 ###Tutoriels :
 
-*  [Site officiel - NodeJS.org](http://nodejs.org/)
-*  [Node Manual](http://nodemanual.org/latest/)
+* [Site officiel - NodeJS.org](http://nodejs.org/)<br/>
+* [Node Manual](http://nodemanual.org/latest/)
 * [Node Packaged Modules](https://npmjs.org/)
 * [NodeTuts](http://nodetuts.com/)
 * [How to Node](http://howtonode.org/)
