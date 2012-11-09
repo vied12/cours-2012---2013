@@ -59,7 +59,17 @@ et http://mojolicio.us/perldoc/Mojo/UserAgent
 voir http://search.cpan.org/~zefram/Time-HiRes-1.9725/HiRes.pm
 
 
+### Exercice C :
 
+En utilisant node.js:
+
+1) idem 1) de l'exercice B
+
+voir http://nodejs.org/api/http.html
+
+2) idem 2) de l'exercice B
+
+voir http://www.w3schools.com/jsref/jsref_obj_date.asp
 
   
 
