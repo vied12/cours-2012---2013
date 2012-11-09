@@ -42,3 +42,35 @@ http://fr.wikipedia.org/wiki/JavaScript_Object_Notation
 
 ### Exercice A :
 En utilisant node.js, écrire une application web de chat à l'aide Socket.io
+
+
+
+### Exercice B :  
+
+En utilisant Mojolicious:
+
+1) Faire une requete HTTP sur l'api de recherche de twitter en cherchant le terme 'node'
+
+voir https://dev.twitter.com/docs/api/1/get/search 
+et http://mojolicio.us/perldoc/Mojo/UserAgent
+
+2) Mesurer le temps passé entre l'envoi de la requête et la fin de cette requête (en ms).
+
+voir http://search.cpan.org/~zefram/Time-HiRes-1.9725/HiRes.pm
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
